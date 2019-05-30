@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Reviews from '../client/Modules/Review-module/client/src/component/ReviewModule.jsx';
+import Photos from '../client/Modules/photodisplay-module/client/src/Components/PhotoDisplay.jsx';
+import Bookings from '../client/Modules/booking-portal-module/client/src/bookingPortal.jsx';
+import ListingInfo from '../client/Modules/listinginfo-module/Module/client/src/components/ListingInfo.jsx';
+ReactDOM.render(<Photos/>, document.getElementById('photos'));
+ReactDOM.render(<ListingInfo/>, document.getElementById('listinginfo'));
+ReactDOM.render(<Reviews/>, document.getElementById('reviews'));
+ReactDOM.render(<Bookings/>, document.getElementById('bookingPortal'));

@@ -1,0 +1,28 @@
+#bookingPortal {
+  float: right;
+  padding-top: 25px;
+  position: fixed;
+  position: sticky;
+  top: 10%;
+  background-color: aliceblue;
+  z-index: 1;
+}
+#page {
+  /* display: grid; */
+}
+#reviews {
+  margin-left: 78px;
+}
+#listinginfo {
+  margin-left: 78px;
+}
+.topleftsvg {
+  display: inline-flex;
+  transition: 0.25s color;
+  padding: 24px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.topbar {
+  
+}
